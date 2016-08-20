@@ -4014,7 +4014,7 @@ public class Server implements Runnable {
                 }
             }
             addReport(r);
-            // write seperator
+            // write separator
             addReport(new Report(1200, Report.PUBLIC));
         } else {
             addReport(new Report(1210, Report.PUBLIC));
