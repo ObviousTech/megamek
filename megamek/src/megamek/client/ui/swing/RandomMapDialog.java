@@ -79,7 +79,7 @@ public class RandomMapDialog extends JDialog implements ActionListener {
 
     // General map settings.
     private final JLabel mapSizeLabel = new JLabel(Messages.getString("RandomMapDialog.BoardSize"));
-    private final JLabel mapSizeSeperatorLabel = new JLabel("x");
+    private final JLabel mapSizeSeparatorLabel = new JLabel("x");
     private final JLabel mapThemeLabel = new JLabel(Messages.getString("RandomMapDialog.labTheme"));
     private final VerifiableTextField mapWidthField = new VerifiableTextField(4);
     private final VerifiableTextField mapHeightField = new VerifiableTextField(4);
@@ -231,7 +231,7 @@ public class RandomMapDialog extends JDialog implements ActionListener {
 
         // Row 2, Column 3.
         constraints.gridx++;
-        panel.add(mapSizeSeperatorLabel, constraints);
+        panel.add(mapSizeSeparatorLabel, constraints);
 
         // Row 2, Column 4.
         constraints.gridx++;
