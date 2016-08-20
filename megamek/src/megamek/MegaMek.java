@@ -316,7 +316,7 @@ public class MegaMek {
      * @param buffer
      *            the buffer to append the list to.
      * @param args
-     *            the array of strings to copy into a space seperated list.
+     *            the array of strings to copy into a space separated list.
      */
     private static void dumpArgs(StringBuffer buffer, String[] args) {
         assert (buffer != null) : "buffer must be non-null"; //$NON-NLS-1$

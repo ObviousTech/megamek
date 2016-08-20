@@ -71,7 +71,7 @@ public interface IConnection {
     public void flush();
 
     /**
-     * Adds a packet to the send queue to be send on a seperate thread.
+     * Adds a packet to the send queue to be send on a separate thread.
      */
     public void send(Packet packet);
 

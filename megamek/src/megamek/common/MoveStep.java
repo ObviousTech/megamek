@@ -1748,7 +1748,7 @@ public class MoveStep implements Serializable {
             return;
         }
         // AERO STUFF
-        // I am going to put in a whole seperate section for Aeros and just
+        // I am going to put in a whole separate section for Aeros and just
         // return from it
         // only if Aeros are airborne, otherwise they should move like other
         // units

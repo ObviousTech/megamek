@@ -125,7 +125,7 @@ public class BLKMechFile extends BLKFile implements IMechLoader {
         }
         mech.setOriginalJumpMP(dataFile.getDataAsInt("jumpingMP")[0]);
 
-        // I keep internal(integral) heat sinks seperate...
+        // I keep internal(integral) heat sinks separate...
         if (!dataFile.exists("heatsinks")) {
             throw new EntityLoadingException("Could not find block.");
         }

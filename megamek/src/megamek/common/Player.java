@@ -45,7 +45,7 @@ public final class Player extends TurnOrdered implements IPlayer {
 
     private int colorIndex = 0;
 
-    // these are game-specific, and maybe should be seperate from the player
+    // these are game-specific, and maybe should be separate from the player
     // object
     private int startingPos = Board.START_ANY;
 

@@ -15910,7 +15910,7 @@ public class Server implements Runnable {
             addReport(r);
         }
         while (hits > 0) {
-            // BA get hit seperately by each attacking BA trooper
+            // BA get hit separately by each attacking BA trooper
             int damage = Math.min(ae.getVibroClaws(), hits);
             // conv infantry get hit in one lump
             if ((te instanceof Infantry) && !(te instanceof BattleArmor)) {

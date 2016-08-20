@@ -3390,7 +3390,7 @@ public abstract class Mech extends Entity {
             ammoPenalty += this.getJumpMP(false, true);
         }
         // special case for blueshield, need to check each non-head location
-        // seperately for CASE
+        // separately for CASE
         if (hasWorkingMisc(MiscType.F_BLUE_SHIELD)) {
             int unProtectedCrits = 0;
             for (int loc = LOC_CT; loc <= LOC_LLEG; loc++) {
